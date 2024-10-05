@@ -38,9 +38,9 @@ const login = async function(req, res, next) {
 
     return res.json({ token });
   } catch (error) {
-
     next(error);
   }
 }
+  
 
 module.exports = { register, login };

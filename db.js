@@ -14,6 +14,7 @@ function connecttoMongo() {
       console.log(error);
     });
 }
+
 module.exports = {
   connectToDb: connecttoMongo,
 };
